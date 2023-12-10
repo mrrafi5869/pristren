@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import AccordionItem from './AccordianItem';
 
 const FAQS = () => {
-    const [activeItem, setActiveItem] = useState(null);
+    const [activeItem, setActiveItem] = useState("collapseTwo");
     return (
         <div className="w-full lg:w-[798px] mx-auto h-[600px] lg:h-[900px] py-5 lg:py-[150px] px-5 lg:px-[60px]">
-        <h4 className="text-[#F70942] font-semibold mb-3">FAQS</h4>
+        <h4 className="text-[#6B63FF] font-semibold mb-3">FAQS</h4>
         <h1 className="text-2xl lg:text-3xl font-bold tracking-tighter mb-10">
           Have Some Questions
         </h1>

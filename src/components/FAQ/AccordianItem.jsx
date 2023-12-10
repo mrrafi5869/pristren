@@ -16,7 +16,7 @@ const AccordionItem = ({ id, title, content, activeItem, setActiveItem }) => {
         aria-expanded={isOpen}
         aria-controls={id}
       >
-        <span className="mr-7 h-5 w-5 shrink-0 transition-transform duration-200 ease-in-out cursor-pointer text-[#F70942]">
+        <span className="mr-7 h-5 w-5 shrink-0 transition-transform duration-200 ease-in-out cursor-pointer text-[#6B63FF]">
           {isOpen ? <FaMinus /> : <FaPlus />}
         </span>
         <p className="lg:font-bold">{title}</p>
